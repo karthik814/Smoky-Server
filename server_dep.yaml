@@ -15,5 +15,8 @@ spec:
         run: smokey-server
     spec:
       containers:
-      - image: gcr.io/algebraic-inn-256717/server
+      - image: gcr.io/mythic-maxim-255321/smokey-server
         name: smokey-server
+
+
+  
