@@ -15,7 +15,7 @@ spec:
         run: smokey-server
     spec:
       containers:
-      - image: gcr.io/mythic-maxim-255321/smokey-server
+      - image: gcr.io/mythic-maxim-255321/smokey-server:${BUILD_NUMBER}
         name: smokey-server
 
 
